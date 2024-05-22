@@ -47,6 +47,7 @@ body, .user-input, .high-score {
     width: 15rem;
     height: 15rem;
     border-radius: 15rem;
+    border: 6px solid hsla(179, 0%, 86%, 0.5);
     color: white;
     text-align: center;
     line-height: 15rem;
@@ -58,6 +59,10 @@ body, .user-input, .high-score {
     background-position: center;
     opacity: 0.9;
     z-index: 5;
+}
+
+.play-button:hover {
+    border: 6px solid hsla(179, 0%, 86%, 1);
 }
 
 .timer {
